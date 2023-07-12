@@ -1,0 +1,11 @@
+name = "projectname"
+type = "javascript"
+
+account_id = "11c295ea12eb5268760240e127716330"
+workers_dev = true
+routes =[
+"https://cx.cloudflarepoc.scholastic.com",
+"https://chx.cloudflarepoc.scholastic.com"
+]
+zone_id = "9dde6adaee5cc95c6f7aba7c53fc7222"
+compatibility_date = "2022-09-12"

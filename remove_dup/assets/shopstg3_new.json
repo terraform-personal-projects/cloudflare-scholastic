@@ -1,0 +1,476 @@
+kv={
+    "title": "SHOPSTG3",
+    "list": [
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/storeview",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/audiences/tsohomepage.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shops/super+clearance+catalog/4294352162",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/sale/clearance.sale.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/searchcmd",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/te-close-reading-comprehension-activity-books.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/teacherstore/lp/paperbacks",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/featured-shops/paperback-books-collections.shops.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4294288537",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/english-language-learners.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shops/classroom%20books/4294966200",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/independent-reading.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/producttype/books/914",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/books/individual-titles.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shops/decor/6480",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/classroom-materials/decor.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shops/guided%20reading/4294966664",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/guided-reading.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shop/scholastic%20audio/4294607368",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/digital-and-media-resources/audio.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/grade/grade3/162",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/3rd-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/math/315",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/math.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/foreign%20languages%20and%20esl/197",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/foreign-language-english-language-learning.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/science/407",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/science-technology.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/reading/370",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/reading.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradeprek/158",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/pre-k.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade1/160",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/1st-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradek/159",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/k-kindergarten.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter43/4294961846",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/ready-to-go-classroom-libraries.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade2/161",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/2nd-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade5/164",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/5th-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter15/4294395721",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/comprehension-clubs.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4293996754",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/guided-reading-short-reads-digital-and-print-bundles.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter35/4294085512",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/skills-libraries.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/teacherstore/lp/earlyliteracy",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/ecatalogs/early-learning.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/grade/grade4/163",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/4th-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/early%20learning/601",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/early-learning.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/language%20and%20arts/274",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/language-arts.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter39/4294272918",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/shops/culturally-responsive-collection.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/teacherstore/btq/te",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/featured-shops/teacher-resources.html"
+        },
+        
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/subject/social%20studies/479",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/subject/social-studies.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/teacherstore/lp/trcatalog",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/ecatalogs/teaching-resources.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/grade/grade6/165",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/6th-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade8/167",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/8th-grade.html"
+        },
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade7/166",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/7th-grade.html"
+        },
+       
+        {
+            "key": "https://shop-dev.scholastic.com/shop/en/teacherstore/nav/shops/informationaltext/4294300195",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/featured-shops/science-technology-engineering-math-stem.shops.html"
+        },
+       
+        {
+            "key": "https://shop-dev.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade12/171",
+            "value": "https://shopbeta.scholastic.com/content/teachers-ecommerce/en/teacher/grade/12th-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/storeview",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/audiences/tsohomepage.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shops/super+clearance+catalog/4294352162",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/sale/clearance.sale.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/searchcmd",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/te-close-reading-comprehension-activity-books.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/teacherstore/lp/paperbacks",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/featured-shops/paperback-books-collections.shops.html"
+        },
+        
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4294288537",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/english-language-learners.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shops/classroom%20books/4294966200",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/independent-reading.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shops/decor/6480",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/classroom-materials/decor.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shops/guided%20reading/4294966664",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/guided-reading.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shop/scholastic%20audio/4294607368",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/digital-and-media-resources/audio.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/grade/grade3/162",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/3rd-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/math/315",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/math.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/foreign%20languages%20and%20esl/197",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/foreign-language-english-language-learning.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/science/407",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/science-technology.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/reading/370",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/reading.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradeprek/158",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/pre-k.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade1/160",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/1st-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradek/159",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/k-kindergarten.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter43/4294961846",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/ready-to-go-classroom-libraries.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade2/161",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/2nd-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade5/164",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/5th-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter15/4294395721",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/comprehension-clubs.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4293996754",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/guided-reading-short-reads-digital-and-print-bundles.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter35/4294085512",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/skills-libraries.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/teacherstore/lp/earlyliteracy",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/ecatalogs/early-learning.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/grade/grade4/163",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/4th-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/early%20learning/601",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/early-learning.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/language%20and%20arts/274",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/language-arts.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter39/4294272918",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/shops/culturally-responsive-collection.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/teacherstore/btq/te",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/featured-shops/teacher-resources.html"
+        },
+       
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/subject/social%20studies/479",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/subject/social-studies.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/teacherstore/lp/trcatalog",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/ecatalogs/teaching-resources.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/producttype/books/914",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/books/individual-titles.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/grade/grade6/165",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/6th-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade8/167",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/8th-grade.html"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade7/166",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/7th-grade.html"
+        },
+       
+               {
+            "key": "https://shopstg3.scholastic.com/shop/en/teacherstore/nav/shops/informationaltext/4294300195",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/featured-shops/science-technology-engineering-math-stem.shops.html"
+        },
+       
+        {
+            "key": "https://shopstg3.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade12/171",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/teacher/grade/12th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/storeview",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/audiences/tsohomepage.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shops/super+clearance+catalog/4294352162",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/sale/clearance.sale.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/searchcmd",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/te-close-reading-comprehension-activity-books.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/teacherstore/lp/paperbacks",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/featured-shops/paperback-books-collections.shops.html"
+        },
+        
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4294288537",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/english-language-learners.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shops/classroom%20books/4294966200",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/independent-reading.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/producttype/books/914",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/books/individual-titles.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shops/decor/6480",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/classroom-materials/decor.html"
+        },
+       {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shop/scholastic%20audio/4294607368",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/digital-and-media-resources/audio.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/grade/grade3/162",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/3rd-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/math/315",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/math.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/foreign%20languages%20and%20esl/197",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/foreign-language-english-language-learning.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/science/407",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/science-technology.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/reading/370",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/reading.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradeprek/158",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/pre-k.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade1/160",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/1st-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/gradek/159",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/k-kindergarten.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter43/4294961846",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/ready-to-go-classroom-libraries.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade2/161",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/2nd-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade5/164",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/5th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter15/4294395721",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/comprehension-clubs.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter10/4293996754",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/guided-reading-short-reads-digital-and-print-bundles.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter35/4294085512",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/skills-libraries.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/teacherstore/lp/earlyliteracy",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/ecatalogs/early-learning.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/grade/grade4/163",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/4th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/early%20learning/601",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/early-learning.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/language%20and%20arts/274",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/language-arts.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/shops/winter39/4294272918",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/shops/culturally-responsive-collection.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/teacherstore/btq/te",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/featured-shops/teacher-resources.html"
+        },
+      
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/subject/social%20studies/479",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/subject/social-studies.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/teacherstore/lp/trcatalog",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/ecatalogs/teaching-resources.html"
+        },
+       
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/grade/grade6/165",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/6th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade8/167",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/8th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade7/166",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/7th-grade.html"
+        },
+        
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shops/guided%20reading/4294966664",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/programs-and-services/curriculum/guided-reading.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com/shop/en/teacherstore/nav/shops/informationaltext/4294300195",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/featured-shops/science-technology-engineering-math-stem.shops.html"
+        },
+        
+        {
+            "key": "https://shopqa1.scholastic.com/webapp/wcs/stores/servlet/en/teacherstore/nav/grade/grade12/171",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/teacher/grade/12th-grade.html"
+        },
+        {
+            "key": "https://shopqa1.scholastic.com",
+            "value": "https://www-qa.scholastic.com/content/teachers-ecommerce/en/audiences/tsohomepage.html/cutoverpopup=redirect"
+        },
+        {
+            "key": "https://shopstg3.scholastic.com",
+            "value": "https://www-stage.scholastic.com/content/teachers-ecommerce/en/audiences/tsohomepage.html/cutoverpopup=redirect"
+        }
+    ]
+}
+
+
+
+
+
+
+

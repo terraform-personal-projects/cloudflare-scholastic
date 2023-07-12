@@ -1,0 +1,1067 @@
+version: 3
+projects:
+
+# Worker environments for aem-perf 
+# - dir: classmags-nonprod/global/worker
+#   workflow: terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: action-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/action-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: action-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/action-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: action-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/action-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: action-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/action-aem-perf/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# zone: art-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/art-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: art-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/art-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: art-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/art-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: art-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/art-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: art-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/art-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: authoraem-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/authoraem-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: authoraem-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/authoraem-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: authoraem-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/authoraem-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: authoraem-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/authoraem-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: bts-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/bts-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: bts-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/bts-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: bts-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/bts-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: bts-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/bts-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: choices-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/choices-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: choices-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/choices-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: choices-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/choices-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: choices-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/choices-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: choices-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/choices-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: classroommagazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/classroommagazines-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: classroommagazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/classroommagazines-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: classroommagazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/classroommagazines-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: classroommagazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/classroommagazines-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: classroommagazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/classroommagazines-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: dynamath-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/dynamath-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: dynamath-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/dynamath-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: dynamath-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/dynamath-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: dynamath-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/dynamath-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: dynamath-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/dynamath-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: geographyspin-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/geographyspin-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: geographyspin-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/geographyspin-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: geographyspin-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/geographyspin-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: geographyspin-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/geographyspin-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: junior-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/junior-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: junior-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/junior-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: junior-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/junior-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: junior-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/junior-aem-perf/redirect_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: junior-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/junior-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: learnathome-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/learnathome-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: learnathome-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/learnathome-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: learnathome-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/learnathome-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: learnathome-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/learnathome-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: letsfindout-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/letsfindout-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: letsfindout-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/letsfindout-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: letsfindout-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/letsfindout-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: letsfindout-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/letsfindout-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: magazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/magazines-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: magazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/magazines-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: magazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/magazines-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: magazines-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/magazines-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: math-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/math-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: math-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/math-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: math-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/math-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: math-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/math-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: math-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/math-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: mybigworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/mybigworld-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: mybigworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/mybigworld-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: mybigworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/mybigworld-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: mybigworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/mybigworld-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: mybigworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/mybigworld-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: prekonmywayfamily-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/prekonmywayfamily-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: prekonmywayfamily-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/prekonmywayfamily-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: prekonmywayfamily-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/prekonmywayfamily-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: prekonmywayfamily-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/prekonmywayfamily-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: ris-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/ris-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: ris-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/ris-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: ris-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/ris-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: ris-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/ris-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: rise-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/rise-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: rise-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/rise-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: rise-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/rise-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: rise-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/rise-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scholasticnews-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scholasticnews-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scholasticnews-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scholasticnews-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scholasticnews-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scholasticnews-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: scholasticnews-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scholasticnews-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin2-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin2-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin2-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: sciencespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin2-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin36-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin36-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin36-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin36-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespin36-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin36-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: sciencespin36-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespin36-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+  
+# zone: sciencespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespink1-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespink1-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: sciencespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespink1-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+
+# zone: sciencespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sciencespink1-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scienceworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scienceworld-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scienceworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scienceworld-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scienceworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scienceworld-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: scienceworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scienceworld-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scienceworld-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scienceworld-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scope-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scope-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scope-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scope-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scope-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scope-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: scope-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scope-aem-perf/redirect_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+
+# zone: scope-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/scope-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']
+  
+# zone: sn1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn1-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: sn1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn1-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn1-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: sn1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn1-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']   
+
+# zone: sn2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn2-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: sn2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn2-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn2-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: sn2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn2-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+    
+# zone: sn3-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn3-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: sn3-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn3-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn3-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn3-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: sn3-aem-perffor aem-perf environments 
+- dir: classmags-nonprod/environments/sn3-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn4-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn4-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: sn4-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn4-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn4-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn4-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: sn4-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/sn4-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn56-aem-perffor aem-perf environments 
+- dir: classmags-nonprod/environments/sn56-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: sn56-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn56-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: sn56-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/sn56-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: sn56-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/sn56-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storytimespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespin2-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: storytimespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespin2-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storytimespin2-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespin2-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: storytimespin2-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespin2-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+
+# zone: storytimespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespink1-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: storytimespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespink1-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storytimespink1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespink1-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: storytimespink1-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/storytimespink1-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storyworks-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+
+# zone: storyworks-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storyworks-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: storyworks-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storyworks1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks1-aem-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# zone: storyworks1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks1-aem-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# zone: storyworks1-aem-perf for aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks1-aem-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# zone: storyworks1-aem-perf aem-perf environments 
+- dir: classmags-nonprod/environments/storyworks1-aem-perf/waf
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworks2-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks2-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: storyworks2-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks2-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworks2-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks2-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: storyworks2-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks2-aem-perf/redirect_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: storyworks2-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks2-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworks3-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks3-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: storyworks3-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks3-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworks3-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks3-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: storyworks3-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks3-aem-perf/redirect_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: storyworks3-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworks3-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworksjr-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworksjr-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: storyworksjr-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworksjr-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: storyworksjr-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworksjr-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: storyworksjr-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/storyworksjr-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superscience-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superscience-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: superscience-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superscience-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superscience-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superscience-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superscience-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superscience-aem-perf/redirect_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+# # zone: superscience-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/superscience-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superstem-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superstem-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: superstem-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superstem-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superstem-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/superstem-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: superstem-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/superstem-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: upfront-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/upfront-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: upfront-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/upfront-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: upfront-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/upfront-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: upfront-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/upfront-aem-perf/redirect_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: upfront-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/upfront-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: watchandlearn-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/watchandlearn-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: watchandlearn-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/watchandlearn-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: watchandlearn-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/watchandlearn-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: watchandlearn-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/watchandlearn-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: wethepeople-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/wethepeople-aem-perf/dns
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# # zone: wethepeople-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/wethepeople-aem-perf/network
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: wethepeople-aem-perf for aem-perf environments 
+# - dir: classmags-nonprod/environments/wethepeople-aem-perf/page_rules
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+# # zone: wwethepeople-aem-perf aem-perf environments 
+# - dir: classmags-nonprod/environments/wethepeople-aem-perf/waf
+#   workflow: governance_approved_terraform_1_3_9
+#   autoplan:
+#     when_modified: ['*.tfvars','*.tf','*.hcl'] 

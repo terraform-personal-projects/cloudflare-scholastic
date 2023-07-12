@@ -1,0 +1,5 @@
+creds = {
+  "api_token" : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_id" : "XXXXXXXXXXXXXXXXXXXX",
+  "zone_id" : "XXXXXXXXXXXXXXXXXXXX",
+}

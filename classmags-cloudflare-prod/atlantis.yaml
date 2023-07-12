@@ -1,0 +1,7 @@
+version: 3
+projects:
+
+- dir: classmags-prod/global/cloudflaretest
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf']

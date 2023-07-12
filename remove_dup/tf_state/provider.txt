@@ -1,0 +1,15 @@
+#resource "cloudflare_record" "scholastic_dns" { 
+ # Cloudflare email saved in $CLOUDFLARE_EMAIL
+ # Cloudflare API token saved in $CLOUDFLARE_API_TOKEN
+#}
+
+
+resource "cloudflare_record" "scholastic_dns" {  
+    
+  timeouts {  
+    create: "1h30m",  
+    update: "2h",  
+    delete: "20m"  
+  }  
+} 
+

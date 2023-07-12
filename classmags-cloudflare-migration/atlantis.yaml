@@ -1,0 +1,25 @@
+
+version: 3
+projects:
+
+- dir: 104452232104-foundations-sandbox/global/cloudflaretest
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf']
+    
+- dir: classmags-nonprod/global/patch-manager
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# zone: action-aem-perf for aem-perf environments
+- dir: classmags-nonprod/environment/aem-perf/action-aem-perf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+# Worker environments for aem-perf
+- dir: classmags-nonprod/environment/aem-perf/global/worker 
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    

@@ -1,0 +1,190 @@
+version: 3
+projects:
+
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  MyScholastic Cloudflare NonProd                               ||
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: login-perf for staging                                  ||
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-perf/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: login-preprod for staging                               ||
+#  ||--------------------------------------------------------------------------------||
+
+
+- dir: myscholastic-nonprod/environments/login-preprod/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-preprod/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-preprod/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-preprod/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: login-qa for staging                                    ||
+#  ||--------------------------------------------------------------------------------||
+
+
+- dir: myscholastic-nonprod/environments/login-qa/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-qa/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-qa/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/login-qa/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: myaccount-perf for staging                              ||
+#  ||--------------------------------------------------------------------------------||
+
+
+- dir: myscholastic-nonprod/environments/myaccount-perf/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-perf/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-perf/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-perf/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: myaccount-qa for staging                                ||
+#  ||--------------------------------------------------------------------------------||
+
+
+- dir: myscholastic-nonprod/environments/myaccount-qa/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-qa/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-qa/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myaccount-qa/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+#  ||                  zone: myscholastic-preprod for staging                        ||
+#  ||--------------------------------------------------------------------------------||
+
+
+- dir: myscholastic-nonprod/environments/myscholastic-preprod/dns
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myscholastic-preprod/network
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl'] 
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myscholastic-preprod/page_rules
+  workflow: governance_approved_terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']  
+
+#  ||--------------------------------------------------------------------------------||
+
+- dir: myscholastic-nonprod/environments/myscholastic-preprod/waf
+  workflow: terraform_1_3_9
+  autoplan:
+    when_modified: ['*.tfvars','*.tf','*.hcl']    
